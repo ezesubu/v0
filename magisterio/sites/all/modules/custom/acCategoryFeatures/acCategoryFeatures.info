@@ -1,0 +1,8 @@
+name = AC - Category Features
+description = Category Features Required By acCategoryTheme
+package = Activisual Kit
+core = 7.x
+stylesheets[all][] = acCategoryFeatures_style.css
+scripts[] = acCategoryFeatures_script.js
+
+

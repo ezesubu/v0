@@ -1,0 +1,60 @@
+
+.quicktabs_wrapper.quicktabs-style-magisterio {
+  margin: 0;
+  width: 100%;
+  display: block;
+}
+.tb-megamenu .dropdown-menu .active > a, .tb-megamenu .dropdown-menu .active > a:hover {
+    background-color: #CCC;
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    outline: 0 none;
+    text-decoration: none;
+}
+
+ul.quicktabs-tabs.quicktabs-style-magisterio {
+  float: left;
+  padding: 4px 0;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+  width: 20%;
+}
+ul.quicktabs-tabs.quicktabs-style-magisterio li {
+  display: block;
+  margin-right: -1px;
+  padding: 0;
+}
+ul.quicktabs-tabs.quicktabs-style-magisterio li a {
+  display: block;
+  color: #000;
+  text-align: right;
+  text-decoration: none;
+  margin: 0;
+  padding: 0 10px 0 0;
+  height: 23px;
+  font-weight: normal;
+}
+ul.quicktabs-tabs.quicktabs-style-magisterio li a:hover {
+  color:blue;
+}
+ul.quicktabs-tabs.quicktabs-style-magisterio li.active {
+   border-top: 1px solid #BFD0FF;
+  border-bottom: 1px solid #BFD0FF;
+}
+ul.quicktabs-tabs.quicktabs-style-magisterio li.active a {
+  color: #dd8aa6;
+  font-weight: bold;
+}
+
+.quicktabs_main.quicktabs-style-magisterio {
+  float: left;
+  border: 1px solid #BFD0FF;
+  background: #CCC;
+  padding: 10px;
+  min-height: 64px;
+  position: relative;
+  z-index: 1;
+  width: 70%;
+}
+

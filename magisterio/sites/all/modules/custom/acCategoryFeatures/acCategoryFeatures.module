@@ -1,0 +1,18 @@
+<?php
+
+function acCategoryFeatures_init(){
+  drupal_add_js('DRUPAL_FILE_PATH="'.file_create_url(file_build_uri('/')).'";', array('type' => 'inline'));
+  drupal_add_js('if(typeof(closureInlineScript) == "function") closureInlineScript();', 
+    array('type' => 'inline', 'scope' => 'footer', 'weight' => 5)
+  );
+}
+
+function _acCategoryFeatures_bool_field_active($entity_type, $entity, $field_name, $active_value=1, $default_value=TRUE){
+  if($entity){
+    $vals = field_get_items($entity_type, $entity, $field_name);
+    if(isset($vals[0]) && isset($vals[0]['value'])){
+      return ($vals[0]['value'] == $active_value);
+    }
+  }
+  return  $default_value;
+}

@@ -1,0 +1,25 @@
+name = AcTextualClean
+description = A clean theme for presenting mostly text based content.
+package = Core
+version = VERSION
+core = 7.x
+stylesheets[all][] = colorbox/colorbox.css
+stylesheets[all][] = fonts/stylesheet.css
+stylesheets[all][] = style.css
+scripts[] = script.js
+
+
+; External libraries
+scripts[] = js/jquery.easing.min.js
+scripts[] = js/functions.javascript.js
+scripts[] = js/functions.jquery.js
+scripts[] = js/jquery.colorbox-min.js
+scripts[] = yoxview/yoxview-init.js
+
+regions[header] = Header
+regions[subheader] = SubHeader
+regions[sidebar] = Sidebar
+regions[content] = Content
+regions[related] = Related Information
+regions[footer] = Footer
+regions[second_footer] = Segundo footer
